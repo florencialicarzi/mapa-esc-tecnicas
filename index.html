@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <div id="grid">
+        <div id="navbar">
+            <h1>Escuelas Técnicas de La Matanza</h1>
+        </div>
+
+        <div id="template">
+            <div class= "nombre">
+                <h2 id= "eest">Nro excuela</h2>
+                <h1 id="nom">NOMBRE</h1>
+                
+            </div>
+            <div class= "informacion">
+                <p id= "loc">Localidad: </p>
+                <p id="tel">Teléfono: </p>
+                <p id= "dir">Dirección: </p>
+            </div>
+            <div class= "tecnicaturas">
+                <p>Tecnicaturas:</p>
+                <p id="tec1"></p>
+                <p id="tec2"></p>
+                <p id="tec3"></p>
+
+            </div>
+        </div>
+        <div id="map">
+            <script src='js/apis.js'></script>
+            <script src="https://maps.googleapis.com/maps/api/js?v=3.27&key=AIzaSyCOcG2MOhwhW3Y2bbX4UgCpvfzZWP4cLhg&libraries=places&callback=inicializarMapa" async defer></script>
+        </div>
+    </div>
+</body>
+</html>
